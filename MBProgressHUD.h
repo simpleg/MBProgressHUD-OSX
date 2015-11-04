@@ -29,9 +29,7 @@
 #import <Foundation/Foundation.h>
 #if (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
     #import <CoreGraphics/CoreGraphics.h>
-    #if __IPHONE
-        #import <UIKit/UIKit.h>
-    #endif  // __IPHONE
+    #import <UIKit/UIKit.h>
 #else   // !(TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
     #import <Cocoa/Cocoa.h>
 #endif  // (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
